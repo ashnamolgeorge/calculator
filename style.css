@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.two,.three,.four,.five,.six{
+	display: flex; 
+	width: 380px;
+	padding-left: 9px;
+	height: 60px;
+	justify-content: space-evenly;
+}
+.calcu{
+	border: 2px solid black;
+	border-radius: 20px;
+	width: 400px;
+	height: 450px;
+	/*margin-left: 30%;*/
+	margin: auto;
+	margin-top: 150px;
+	background-color: #ABB2B9;
+	box-shadow: 10px 10px 10px 10px dimgray;
+}
+.two button,.three button,.four button,.five button,.six button{
+	width: 70px;
+	height: 40px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-size: 17px;
+	box-shadow: 2px 2px 2px 2px dimgray;
+	background-color: #EBF5FB;
+}
+.one{
+	height: 80px;
+	padding: 15px;
+	background-color: skyblue;
+	border-radius: 20px;
+}
+.one input{
+	height: 50px;
+	width: 352px;
+	border: 2px solid black;
+}
+.main{
+	padding-top: 20px;
+}
+.a button{
+	background-color: red;
+}
+.h button{
+	background-color: #58D68D;
+}
+@media screen and(max-width :480px){
+	.calcu{
+		margin-left: 0px;
+	}
+
+}
+
